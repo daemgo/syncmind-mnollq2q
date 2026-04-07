@@ -1,5 +1,5 @@
 {
-  "version": "v0.1",
+  "version": "v0.2",
   "status": "draft",
   "generatedAt": "2026-04-07",
   "knowledgeBaseMatch": "无匹配数据（冷启动模式）",
@@ -208,6 +208,8 @@
   "constraints": {
     "budget": {
       "amount": "50万",
+      "flexible": true,
+      "flexNote": "可浮动，具体金额视范围确定后确认",
       "note": "含首年实施费用，需确认是否含后续年费"
     },
     "timeline": {
@@ -244,6 +246,11 @@
       "type": "假设",
       "description": "假设回款跟踪暂不需要与财务系统对接，可手动维护",
       "mitigation": "访谈确认财务数字化程度和集成需求"
+    },
+    {
+      "type": "假设",
+      "description": "预算50万可浮动，范围确定后可进一步调整",
+      "mitigation": "MVP优先保核心功能，非核心功能延至后续迭代"
     }
   ],
   "solutionDirection": {
@@ -258,11 +265,11 @@
     "phasedApproach": {
       "phase1": {
         "scope": "项目管理核心（任务、进度、甘特图、交付物）",
-        "timeline": "8月底前上线"
+        "timeline": "7月底前上线"
       },
       "phase2": {
         "scope": "工时管理、报表、风险预警",
-        "timeline": "10月底前上线"
+        "timeline": "9月底前上线"
       },
       "phase3": {
         "scope": "回款管理、客户关联、集成扩展",
