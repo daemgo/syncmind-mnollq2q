@@ -1,0 +1,125 @@
+{
+  "version": "1.0",
+  "updatedAt": "2026-04-07",
+  "companyName": "嘉点科技（武汉）有限公司",
+  "shortName": "嘉点科技",
+  "summary": "阿里钉钉五星金牌服务商，聚焦政企客户数字化协同解决方案，核心代理专属钉钉与Teambition，2024年入选5G+工业互联网典型案例",
+  "industry": "软件和信息技术服务业",
+  "subIndustry": "企业协同办公与数字化解决方案",
+  "scale": "1-49人",
+  "mainBusiness": "钉钉生态部署实施、Teambition项目管理、政企客户定制化数字化解决方案、智能硬件集成",
+  "products": [
+    { "name": "专属钉钉部署服务", "description": "为企业搭建专属钉钉工作台，包括组织架构、审批流程、应用集成等" },
+    { "name": "Teambition项目管理", "description": "基于Teambition的项目协作、任务管理、资源排程实施服务" },
+    { "name": "数字化解决方案", "description": "面向政企客户的定制化系统集成与流程数字化改造" },
+    { "name": "钉钉智能硬件", "description": "智能考勤机、门禁、会议设备等的选型与集成部署" }
+  ],
+  "targetCustomers": ["制造业企业", "政府机构", "医疗单位", "高校教育", "政企客户"],
+  "businessModel": "B2B服务模式：软件代理销售+实施部署+定制开发+运维服务",
+  "rating": "A-",
+  "tags": ["钉钉五星服务商", "Teambition核心代理", "高新技术企业", "B2B SaaS服务", "政企数字化", "项目管理", "协同办公", "定制开发"],
+  "website": null,
+  "slogan": null,
+  "isListed": false,
+  "stockCode": null,
+  "revenueScale": "百万级",
+  "registration": {
+    "registeredName": "嘉点科技（武汉）有限公司",
+    "registeredCapital": "1000万人民币",
+    "paidCapital": null,
+    "establishedDate": "2021-05-11",
+    "legalRepresentative": "黄中军",
+    "businessStatus": "存续",
+    "shareholders": [
+      { "name": "黄中军", "ratio": "90%", "role": "法定代表人/控股股东" },
+      { "name": "沈雪妮", "ratio": "10%", "role": "自然人股东" }
+    ],
+    "branchCount": null,
+    "interpretation": "注册资本1000万但实缴资本未公示，资金实力依赖经营现金流而非外部融资；90/10股权结构显示典型的创始人主导型小企业，决策链短、灵活性高；无分支机构披露，聚焦武汉本地及湖北区域市场",
+    "organizationType": "创始人主导型小微企业",
+    "keyFindings": [
+      "黄中军90%控股，高度集权，合作决策只需对接法人即可",
+      "实缴资本未公示，资金实力依赖经营现金流而非外部融资",
+      "公司前身可追溯至2014年武汉逆光青春文化科技股份，创始人有一定创业经验"
+    ]
+  },
+  "hiring": {
+    "keySignals": [
+      "招聘岗位以销售/客户经理为主（钉钉大客户经理6-12k、软件销售5-10k、销售代表），显示业务处于扩张获客期",
+      "招聘售前架构师和Java开发工程师，表明从纯代理向解决方案+定制开发方向升级",
+      "招聘交付工程师（5-8k），说明项目实施交付量在增长，需补充执行层人力"
+    ]
+  },
+  "competition": {
+    "industryRank": null,
+    "marketShare": null,
+    "mainCompetitors": ["其他钉钉区域服务商", "企业微信生态服务商", "泛微/致远等OA厂商"],
+    "knownClients": ["东风富士汤姆森调温器有限公司", "武汉市精神卫生中心", "部分湖北高校"]
+  },
+  "organization": {
+    "type": "创始人主导型小微企业",
+    "decisionChain": "黄中军（法人/大股东）为最终决策人，小团队结构意味着技术选型和采购决策高度集中，无需经过多层审批",
+    "keyPersons": [
+      { "name": "黄中军", "title": "法定代表人/大股东（90%）" },
+      { "name": "沈雪妮", "title": "股东（10%）" }
+    ],
+    "salesStrategy": "直接对接黄中军本人即可推动合作，小团队决策链条极短，重点展示钉钉生态之外的增量价值（如AI能力、跨平台集成）以建立差异化"
+  },
+  "timing": {
+    "phase": "扩张强化期",
+    "analysisBasis": [
+      "大量销售岗和交付岗招聘信号，处于业务规模扩张阶段",
+      "2024年入选5G+工业互联网典型案例，品牌力和市场认可度提升",
+      "2026年3月仍有新项目中标（武汉精神卫生中心），业务持续增长"
+    ],
+    "entryStrategy": "趁其业务扩张、交付压力增大的窗口期切入，提供能提升交付效率或增强解决方案竞争力的工具/能力",
+    "urgency": "窗口期3-6个月内，竞争对手如同步盯上扩张中的钉钉服务商群体，可能抢占先机"
+  },
+  "painPoints": [
+    { "area": "项目管理", "description": "多项目并行（部署+定制开发），项目经理人手紧张，进度跟踪和交付质量控制压力大", "severity": "高" },
+    { "area": "客户管理", "description": "政企客户众多，客户关系和商机信息可能分散在销售个人手中，缺乏统一管理", "severity": "高" },
+    { "area": "知识管理", "description": "实施经验和方案模板沉淀在个人身上，新人培养周期长，复用效率低", "severity": "中" },
+    { "area": "交付管理", "description": "客户需求变更频繁（政企项目常见），验收标准和交付流程需要规范化", "severity": "中" },
+    { "area": "回款管理", "description": "政企客户账期长，回款跟踪和应收账款管理复杂度随项目增多而上升", "severity": "中" }
+  ],
+  "opportunities": [
+    { "area": "项目管理平台", "description": "提供跨项目资源排程、交付看板、自动化报告能力，直接缓解其交付压力", "likelihood": "高" },
+    { "area": "CRM/客户成功平台", "description": "帮助将客户关系资产化，支持钉钉生态之外的全生命周期管理，支撑其扩张战略", "likelihood": "中" },
+    { "area": "知识库与AI助手", "description": "积累实施案例和解决方案模板，加速新人上手和方案复用，降低交付成本", "likelihood": "中" }
+  ],
+  "riskAndPolicy": {
+    "legal": {
+      "lawsuitCount": null,
+      "lawsuitTypes": [],
+      "majorLawsuits": [],
+      "administrativePenalties": [],
+      "executedPerson": false,
+      "dishonestPerson": false,
+      "businessAnomalies": [],
+      "equityFreeze": false,
+      "equityPledge": false
+    },
+    "policy": {
+      "isSpecializedSME": false,
+      "smeLevel": null,
+      "isHighTech": true,
+      "isGazelle": false,
+      "isUnicorn": false,
+      "digitalTransformation": {
+        "hit": true,
+        "details": "2024年联合钉钉为东风汤姆森打造的'汽车零部件业一体化数智协同新平台项目'入选2024中国5G+工业互联网大会典型应用案例，阿里钉钉五星服务商"
+      },
+      "esgGreen": {
+        "hit": false,
+        "details": null
+      },
+      "xinchuang": {
+        "hit": false,
+        "details": null
+      }
+    }
+  },
+  "riskLevel": "低",
+  "riskSummary": "未发现失信、被执行、行政处罚、经营异常等负面记录，司法风险较低。",
+  "policySummary": "高新技术企业（2023年认定），入选2024中国5G+工业互联网大会典型应用案例。"
+}
