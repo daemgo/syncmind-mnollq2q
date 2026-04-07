@@ -1,0 +1,293 @@
+{
+  "version": "v0.1",
+  "status": "draft",
+  "generatedAt": "2026-04-07",
+  "knowledgeBaseMatch": "无匹配数据（冷启动模式）",
+  "profileRef": {
+    "companyName": "嘉点科技（武汉）有限公司",
+    "shortName": "嘉点科技",
+    "industry": "软件和信息技术服务业",
+    "scale": "1-49人"
+  },
+  "procurementContext": {
+    "buyer": "嘉点科技（武汉）有限公司",
+    "purpose": "内部自用（非转售）",
+    "noted": "嘉点科技为Teambition核心代理，此次采购自建项目管理系统用于内部管理，说明现有工具（含Teambition）无法满足其内部需求"
+  },
+  "needs": [
+    {
+      "id": "N001",
+      "category": "项目管理-进度管理",
+      "title": "多项目并行进度跟踪",
+      "description": "支持同时管理部署实施项目、定制开发项目等多类型项目，实时查看各项目里程碑、任务完成率、延期风险，支持甘特图和看板两种视图",
+      "status": "proposed",
+      "priority": "P0",
+      "confidence": 0.9,
+      "source": "企业画像-痛点：多项目并行，项目经理人手紧张"
+    },
+    {
+      "id": "N002",
+      "category": "项目管理-任务管理",
+      "title": "任务分解与指派",
+      "description": "支持WBS任务分解（父任务-子任务），可指派具体执行人，设置开始/截止日期、工时预估、实际工时，支持任务优先级标记和前置任务依赖",
+      "status": "proposed",
+      "priority": "P0",
+      "confidence": 0.9,
+      "source": "企业画像-痛点：项目经理人手紧张，需提升任务分配效率"
+    },
+    {
+      "id": "N003",
+      "category": "项目管理-交付管理",
+      "title": "交付物与验收流程",
+      "description": "管理项目交付物清单，支持上传附件/文档，设置交付物验收标准，支持客户确认签字流程（电子签或截图确认），记录验收意见和整改记录",
+      "status": "proposed",
+      "priority": "P0",
+      "confidence": 0.85,
+      "source": "企业画像-痛点：政企客户验收标准和交付流程需规范化"
+    },
+    {
+      "id": "N004",
+      "category": "项目管理-需求变更",
+      "title": "需求变更管理",
+      "description": "支持变更申请-评估-审批-执行的完整流程，记录变更原因、影响范围（工期/成本）、客户确认，支持与原计划对比",
+      "status": "proposed",
+      "priority": "P0",
+      "confidence": 0.85,
+      "source": "企业画像-痛点：客户需求变更频繁"
+    },
+    {
+      "id": "N005",
+      "category": "项目管理-资源管理",
+      "title": "人员工时与资源分配",
+      "description": "支持按项目、按人员统计工时投入，支持资源负载视图（查看人员忙闲程度），支持导出工时报表用于成本核算和绩效考核",
+      "status": "proposed",
+      "priority": "P1",
+      "confidence": 0.8,
+      "source": "企业画像-痛点：多项目并行导致资源调配困难"
+    },
+    {
+      "id": "N006",
+      "category": "项目管理-风险管理",
+      "title": "项目风险预警",
+      "description": "支持任务延期预警、里程碑临近预警、资源过载预警，支持自定义预警规则，消息推送至钉钉/企业微信",
+      "status": "proposed",
+      "priority": "P1",
+      "confidence": 0.75,
+      "source": "推断：项目管理平台标配能力，可提升项目经理监控效率"
+    },
+    {
+      "id": "N007",
+      "category": "协作与沟通",
+      "title": "项目团队协作空间",
+      "description": "每个项目独立空间，支持项目动态feed、评论@、文件共享，支持项目wiki/文档库，可沉淀项目经验教训",
+      "status": "proposed",
+      "priority": "P1",
+      "confidence": 0.75,
+      "source": "企业画像-痛点：知识管理，实施经验沉淀在个人身上"
+    },
+    {
+      "id": "N008",
+      "category": "财务管理-回款管理",
+      "title": "项目回款跟踪",
+      "description": "管理项目合同付款节点（预付款/进度款/验收款/质保金），记录实际回款日期，逾期提醒，支持导出对账单",
+      "status": "proposed",
+      "priority": "P1",
+      "confidence": 0.7,
+      "source": "企业画像-痛点：政企客户账期长，回款管理复杂度高"
+    },
+    {
+      "id": "N009",
+      "category": "客户管理",
+      "title": "客户项目关联",
+      "description": "支持客户主数据管理，每个项目关联到对应客户，支持查看该客户所有项目、合同、回款历史，便于客户全生命周期管理",
+      "status": "proposed",
+      "priority": "P2",
+      "confidence": 0.7,
+      "source": "企业画像-痛点：客户关系和商机信息分散"
+    },
+    {
+      "id": "N010",
+      "category": "报表与分析",
+      "title": "项目统计报表",
+      "description": "支持项目级/部门级/公司级多维度统计，包括项目数量、进度分布、工时汇总、回款情况，支持自定义报表和导出",
+      "status": "proposed",
+      "priority": "P2",
+      "confidence": 0.7,
+      "source": "推断：管理层需要数据化视角掌控全局"
+    },
+    {
+      "id": "N011",
+      "category": "集成能力",
+      "title": "与钉钉生态集成",
+      "description": "消息通知推送至钉钉，支持钉钉扫码登录，集成为钉钉小程序或机器人，支持与企业微信互通",
+      "status": "proposed",
+      "priority": "P1",
+      "confidence": 0.85,
+      "source": "企业背景：钉钉五星服务商，内部已深度使用钉钉"
+    },
+    {
+      "id": "N012",
+      "category": "集成能力",
+      "title": "与Teambition数据互通",
+      "description": "支持与现有Teambition项目数据同步或迁移，避免重复录入，考虑到客户已有Teambition使用习惯",
+      "status": "proposed",
+      "priority": "P2",
+      "confidence": 0.6,
+      "source": "企业背景：Teambition核心代理，需确认具体集成需求"
+    }
+  ],
+  "pendingQuestions": [
+    {
+      "id": "Q001",
+      "category": "需求边界",
+      "question": "是否需要覆盖销售商机管理（CRM功能）？还是仅聚焦项目执行层面的管理？",
+      "impact": "影响系统范围和报价",
+      "askedBy": "系统推演"
+    },
+    {
+      "id": "Q002",
+      "category": "现有系统",
+      "question": "目前Teambition使用到哪些功能？放弃Teambition的主要原因是什么？新系统是否需要完全替代还是与Teambition共存？",
+      "impact": "影响集成方案和数据迁移策略",
+      "askedBy": "系统推演"
+    },
+    {
+      "id": "Q003",
+      "category": "用户规模",
+      "question": "实际使用系统的用户数量是多少？（全员49人还是部分人员使用？是否包含甲方客户查看？)",
+      "impact": "影响license计费方式",
+      "askedBy": "系统推演"
+    },
+    {
+      "id": "Q004",
+      "category": "部署方式",
+      "question": "是否要求私有化部署？还是接受SaaS云服务模式？（考虑到政企客户数据敏感性)",
+      "impact": "影响技术架构选型和价格",
+      "askedBy": "系统推演"
+    },
+    {
+      "id": "Q005",
+      "category": "合同与回款",
+      "question": "回款跟踪功能需要精细到什么程度？是否需要与财务系统（用友/金蝶等）对接？",
+      "impact": "影响功能复杂度和集成开发工作量",
+      "askedBy": "系统推演"
+    }
+  ],
+  "successCriteria": [
+    {
+      "id": "SC001",
+      "criteria": "12月底前完成系统上线（首期交付可用版本）",
+      "category": "时间",
+      "weight": "P0"
+    },
+    {
+      "id": "SC002",
+      "criteria": "系统上线后3个月内，项目经理可通过系统实时查看所有在执行项目的进度状态",
+      "category": "功能",
+      "weight": "P0"
+    },
+    {
+      "id": "SC003",
+      "criteria": "系统上线后6个月内，管理层可生成月度项目统计报告（工时、回款、延期率等）",
+      "category": "功能",
+      "weight": "P1"
+    },
+    {
+      "id": "SC004",
+      "criteria": "用户满意度评分≥4分（5分制），一线执行人员愿意使用系统",
+      "category": "体验",
+      "weight": "P1"
+    },
+    {
+      "id": "SC005",
+      "criteria": "系统可用率≥99.5%，故障恢复时间≤4小时",
+      "category": "运维",
+      "weight": "P1"
+    }
+  ],
+  "constraints": {
+    "budget": {
+      "amount": "50万",
+      "note": "含首年实施费用，需确认是否含后续年费"
+    },
+    "timeline": {
+      "goLive": "12月底（12月31日前）",
+      "urgency": "高",
+      "note": "工期紧张，需分阶段交付"
+    },
+    "scale": {
+      "userCount": "约49人",
+      "projectScale": "预估同时在执行10-20个项目"
+    },
+    "existingTools": {
+      "teambition": "核心代理，已有使用经验",
+      "dingtalk": "深度使用，消息通知需集成"
+    }
+  },
+  "risksAndAssumptions": [
+    {
+      "type": "风险",
+      "description": "工期紧张可能导致需求简化不充分，系统上线后需持续迭代",
+      "mitigation": "明确MVP范围，核心功能优先，非核心功能延至二期"
+    },
+    {
+      "type": "风险",
+      "description": "作为Teambition代理，内部对标竞品预期可能较高",
+      "mitigation": "充分了解Teambition无法满足的具体场景，强调差异化价值"
+    },
+    {
+      "type": "假设",
+      "description": "假设核心用户为项目经理+执行层，人数约10-15人",
+      "mitigation": "访谈确认实际用户范围和使用场景"
+    },
+    {
+      "type": "假设",
+      "description": "假设回款跟踪暂不需要与财务系统对接，可手动维护",
+      "mitigation": "访谈确认财务数字化程度和集成需求"
+    }
+  ],
+  "solutionDirection": {
+    "recommended": "SaaS云服务模式，支持私有化扩展",
+    "rationale": [
+      "工期紧张，SaaS可快速启用，减少部署实施周期",
+      "1-49人规模，SaaS成本效益更高",
+      "预算50万，若私有化部署（含服务器、运维）可能超出",
+      "作为钉钉服务商，可接受与钉钉生态深度绑定"
+    ],
+    "alternative": "若客户坚持私有化，需评估预算是否覆盖（可能需追加至60-80万）",
+    "phasedApproach": {
+      "phase1": {
+        "scope": "项目管理核心（任务、进度、甘特图、交付物）",
+        "timeline": "8月底前上线"
+      },
+      "phase2": {
+        "scope": "工时管理、报表、风险预警",
+        "timeline": "10月底前上线"
+      },
+      "phase3": {
+        "scope": "回款管理、客户关联、集成扩展",
+        "timeline": "12月底前上线"
+      }
+    }
+  },
+  "salesInput": {
+    "keyOpportunity": "嘉点科技虽为Teambition代理，但选择自建系统说明现有工具无法满足其内部项目管理需求（大概率是多项目管理、资源调配或政企交付流程方面存在短板）",
+    "entryAngle": [
+      "不是卖一套标准系统，而是帮其建立一套符合政企项目交付场景的管理平台",
+      "利用其钉钉生态服务商身份，强调与钉钉的原生集成能力",
+      "强调分阶段交付能力，确保12月底上线目标可达成"
+    ],
+    "differentiator": [
+      "支持私有化扩展（未来可私有化部署保护数据主权）",
+      "分阶段交付能力（相比标准SaaS更灵活）",
+      "政企交付项目经验（理解政企客户需求变更、验收流程等场景）"
+    ],
+    "decisionMaker": "黄中军（法定代表人/90%控股股东），决策链短，可直接推动",
+    "competitors": [
+      "Teambition（已在用但不够用）",
+      "Worktile/Tower（国内成熟项目管理系统）",
+      "禅道/Redmine（开源方案）",
+      "自研（内部开发团队）"
+    ]
+  }
+}
