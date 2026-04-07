@@ -1,0 +1,37 @@
+{
+  "records": [
+    {
+      "id": 1,
+      "date": "2026-04-07",
+      "type": "拜访",
+      "content": "客户需开发流程管理系统，预算50w，期望12月底上线",
+      "attendees": [],
+      "actions": [
+        {
+          "action": "提供项目管理系统产品资料和方案",
+          "owner": "销售",
+          "assignee": "",
+          "deadline": "2026-04-14",
+          "done": false,
+          "completedAt": null
+        },
+        {
+          "action": "安排技术交流，了解现有开发流程和集成需求",
+          "owner": "售前",
+          "assignee": "",
+          "deadline": null,
+          "done": false,
+          "completedAt": null
+        },
+        {
+          "action": "客户评估内部需求并确认采购时间表",
+          "owner": "客户",
+          "assignee": "",
+          "deadline": "2026-04-30",
+          "done": false,
+          "completedAt": null
+        }
+      ]
+    }
+  ]
+}
