@@ -32,6 +32,23 @@
           "completedAt": null
         }
       ]
+    },
+    {
+      "id": 2,
+      "date": "2026-04-07",
+      "type": "电话",
+      "content": "客户明确项目管理需具备数据分析功能，要求下周二进行初步方案汇报",
+      "attendees": [],
+      "actions": [
+        {
+          "action": "进行初步方案汇报",
+          "owner": "方案",
+          "assignee": "",
+          "deadline": "2026-04-14",
+          "done": false,
+          "completedAt": null
+        }
+      ]
     }
   ]
 }
